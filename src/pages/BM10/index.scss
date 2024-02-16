@@ -8,12 +8,10 @@
 .page {
     .header-BM8 {
         padding: 80px 56px 0 85px;
-        width: 700px;
 
         &-container {
             display: flex;
             height: 100px;
-            width: 1000px;
             justify-content: space-between;
             &-left {
                 width: 50%;
@@ -113,7 +111,6 @@
         &-footer-BM8 {
             display: flex;
             justify-content: space-between;
-            width: 800px;
             margin-left: 100px;
             margin-top: 40px;
             &-left {
