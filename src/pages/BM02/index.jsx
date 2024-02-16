@@ -24,15 +24,17 @@ const BM02 = () => {
 </div>
 <div className="header-container-detail">
   <div>
-<span>Mã tài liệu: HR-QT-01</span> 
-<br /><span>Phiên bản: Ver 1.0</span>
+Mã tài liệu:: HR-QT-01-BM02
+</div>
+<div>Phiên bản: Ver 1.0</div>
+<div>
+Ngày ban hành:</div>
 
-<br /><br /><span>Ngày ban hành</span>
-
 </div>
 </div>
 </div>
-</div>
+<hr className='first-divider-line'/>
+<hr className='second-divider-line'/>
     <div className='main'>
       <div className="main-container">
       <h1 className="main-title">PHIẾU ĐỀ XUẤT GÓI TUYỂN DỤNG</h1>
@@ -119,19 +121,19 @@ lượng</th>
 
     <div className="main-signature">
       <div className="main-signature-item">
-      Ngày   /    /2024 <br />
+      Ngày  11 /  11  /2024 <br />
       <b> Giám đốc duyệt</b>
        <br />
 ( ký, ghi rõ họ tên)
       </div>
       <div className="main-signature-item">
-      Ngày   /    /2024  <br />
+      Ngày  12 / 11   /2024  <br />
       <b>Trưởng bộ phận</b>
 <br />
 ( ký, ghi rõ họ tên)
       </div>
       <div className="main-signature-item">
-      Ngày   /    /2024  <br />
+      Ngày  13 / 11   /2024  <br />
       <b>Người đề xuất</b>
 
 <br />

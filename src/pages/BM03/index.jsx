@@ -28,12 +28,12 @@ const BM03 = () => {
 </div>
 <div className="header-container-detail">
   <div>
-<span>Mã tài liệu: HR-QT-01</span> 
-<br /><span>Phiên bản: Ver 1.0</span>
-
-<br /><br /><span>Ngày ban hành</span>
-
+Mã tài liệu:: HR-QT-01-BM02
 </div>
+<div>Phiên bản: Ver 1.0</div>
+<div>
+Ngày ban hành:</div>
+
 </div>
 </div>
 </div>
@@ -62,15 +62,15 @@ I. THÔNG TIN CÁ NHÂN
 < br />
 
 </div>
-<div className="main-second-table"> 
-    <div className="main-second-table-name">Họ và tên: (Viết in hoa)  PHAN LINH </div>
-    <div className="main-second-table-birth">Ngày sinh: 1/1/2020 <br /> <br /> Nơi sinh:  Sơn La
+<div className="main-second-table-BM3"> 
+    <div className="main-second-table-BM3-name">Họ và tên: (Viết in hoa)  PHAN LINH </div>
+    <div className="main-second-table-BM3-birth">Ngày sinh: 1/1/2020 <br /> <br /> Nơi sinh:  Sơn La
 </div>
-    <div className="main-second-table-gender">
+    <div className="main-second-table-BM3-gender">
      <p> Giới tính:</p> <br />
-     <div className="main-second-table-gender-block">
-    <div className="main-second-table-gender-block-item">Nam<input type="checkbox" /></div>
-    <div className="main-second-table-gender-block-item">Nữ <input type="checkbox" /></div>
+     <div className="main-second-table-BM3-gender-block">
+    <div className="main-second-table-BM3-gender-block-item">Nam<input type="checkbox" /></div>
+    <div className="main-second-table-BM3-gender-block-item">Nữ <input type="checkbox" /></div>
     </div>
        < br />
 Chiều cao: 199 cm
@@ -78,28 +78,28 @@ Chiều cao: 199 cm
 Cân nặng: 99kg
 </div>
 
-    <div className="main-second-table-tax">
-      <div className="main-second-table-tax-column-block">
-      <div className="main-second-table-tax-column-block-item"> <p>CMND số: 111111111</p><br /><p>Quốc tịch: VN</p></div>
-      <div className="main-second-table-tax-column-block-item"><p>Ngày cấp: 1/1/1111</p><br /><p> Dân tộc: KINH</p></div>
-      <div className="main-second-table-tax-column-block-item"><p>Nơi cấp:HN </p></div>
+    <div className="main-second-table-BM3-tax">
+      <div className="main-second-table-BM3-tax-column-block">
+      <div className="main-second-table-BM3-tax-column-block-item"> <p>CMND số: 111111111</p><br /><p>Quốc tịch: VN</p></div>
+      <div className="main-second-table-BM3-tax-column-block-item"><p>Ngày cấp: 1/1/1111</p><br /><p> Dân tộc: KINH</p></div>
+      <div className="main-second-table-BM3-tax-column-block-item"><p>Nơi cấp:HN </p></div>
       </div>
       <br />
 Số sổ BHXH (nếu không có vui lòng ghi rõ: Không có):  Không có<br /><br />
 Mã số Thuế TNCN (nếu không có vui lòng ghi rõ: Không có):  Không có<br /><br />
-<div className="main-second-table-tax-row">
+<div className="main-second-table-BM3-tax-row">
   <p>Tình trạng hôn nhân:</p>
-  <div className="main-second-table-tax-row-item"><input type="checkbox" /> Chưa kết hôn</div>
-  <div className="main-second-table-tax-row-item"><input type="checkbox" /> Đã kết hôn</div>
-  <div className="main-second-table-tax-row-item"><input type="checkbox" /> Khác</div>
+  <div className="main-second-table-BM3-tax-row-item"><input type="checkbox" /> Chưa kết hôn</div>
+  <div className="main-second-table-BM3-tax-row-item"><input type="checkbox" /> Đã kết hôn</div>
+  <div className="main-second-table-BM3-tax-row-item"><input type="checkbox" /> Khác</div>
 </div>
        < br />
     </div>
-    <div className="main-second-table-address">Địa chỉ thường trú: dsafdaf</div>
-    <div className="main-second-table-address">Địa chỉ tạm trú: adsfdafda</div>
-    <div className="main-second-table-phone">Điện thoại di động: 090y75322</div>
-    <div className="main-second-table-mail">Địa chỉ email: s@mai.com</div>
-    <div className="main-second-table-media">
+    <div className="main-second-table-BM3-address">Địa chỉ thường trú: dsafdaf</div>
+    <div className="main-second-table-BM3-address">Địa chỉ tạm trú: adsfdafda</div>
+    <div className="main-second-table-BM3-phone">Điện thoại di động: 090y75322</div>
+    <div className="main-second-table-BM3-mail">Địa chỉ email: s@mai.com</div>
+    <div className="main-second-table-BM3-media">
     Bạn đang sử dụng Mạng xã hội nào? fb<br /> 
 < br />
     Tên tài khoản đang sử dụng: dzson
@@ -288,7 +288,25 @@ V. Vui lòng trả lời các câu hỏi sau:< br />
 
   </div>
 </div>
-    <div className='main-footer'></div>
+    <div className='main-footer'>
+<span className="main-footer-commit">
+  <i>Tôi cam đoan những lời khai trên đây là đúng sự thật. Tôi chấp nhận nếu có bất kỳ thiếu sót hoặc sai trái nào
+trong phiếu thông tin này có thể dẫn đến việc mất quyền tham gia tuyển dụng hoặc chấm dứt công việc một
+cách vô điều kiện</i>
+
+</span>
+<br />
+    <div className="main-footer-end">
+    Hà Nội, ngày 1 tháng 1 năm 1111 <br />
+    <span className='main-footer-end-applicant'> Ứng viên</span>
+    <br />
+    <span className='main-footer-end-applicant-signature'>
+      <i> (Họ tên & chữ ký)</i>
+     </span>
+     
+
+    </div>
+    </div>
     </div>
     </div>
 

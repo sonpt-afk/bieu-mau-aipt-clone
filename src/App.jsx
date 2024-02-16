@@ -12,11 +12,15 @@ function App() {
     nav('/bieu-mau-3')
 
   }
-  function handleClickBtnBM04(){
-    nav('/bieu-mau-4')
+  function handleClickBtnBM04vong1(){
+    nav('/bieu-mau-4-vong-1')
 
   }
 
+  function handleClickBtnBM04vong2(){
+    nav('/bieu-mau-4-vong-2')
+
+  }
   function handleClickBtnBM05(){
     nav('/bieu-mau-5')
 
@@ -46,7 +50,9 @@ function App() {
      <br />     <br />
      <button onClick={handleClickBtnBM03}>BM03</button>
      <br />     <br />
-     <button onClick={handleClickBtnBM04}>BM04</button>
+     <button onClick={handleClickBtnBM04vong1}>BM04- vong 1</button>
+     <br />     <br />
+     <button onClick={handleClickBtnBM04vong2}>BM04- vong 2 (HR-QT-01-BM04_Thư_mời_phỏng_vấn_ver_2.0)</button>
      <br />     <br />
      <button onClick={handleClickBtnBM05}>BM05</button>
      <br />     <br />

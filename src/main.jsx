@@ -1,13 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './components/App.jsx'
+import App from './App.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import QTTD from './components/QTTD'
-import BM02 from './components/BM02'
-import BM03 from './components/BM03'
+import BM02 from './pages/BM02/index.jsx'
+import BM03 from './pages/BM03/index.jsx'
+import BM04vong1 from './pages/BM04vong1/index.jsx'
+import BM04vong2 from './pages/BM04vong2/index.jsx'
+import BM05 from './pages/BM05/index.jsx'
+import BM06 from './pages/BM06/index.jsx'
+import BM07 from './pages/BM07/index.jsx'
+import BM08 from './pages/BM08/index.jsx'
+import BM10 from './pages/BM10/index.jsx'
+import "/src/assets/css/index.scss"
 
 const router = createBrowserRouter([
   {
@@ -15,11 +22,7 @@ const router = createBrowserRouter([
     element:     <App />
 
   },
-  {
-    path: "/quy-trinh-tuyen-dung",
-    element:     <QTTD />
 
-  },
   {
     path: "/bieu-mau-2",
     element:     <BM02 />
@@ -31,33 +34,38 @@ const router = createBrowserRouter([
 
   },
   {
-    path: "/bieu-mau-4",
-    element:     <App />
+    path: "/bieu-mau-4-vong-1",
+    element:     <BM04vong1 />
+
+  },
+  {
+    path: "/bieu-mau-4-vong-2",
+    element:     <BM04vong2 />
 
   },
   {
     path: "/bieu-mau-5",
-    element:     <App />
+    element:     <BM05 />
 
   },
   {
     path: "/bieu-mau-6",
-    element:     <App />
+    element:     <BM06 />
 
   },
   {
     path: "/bieu-mau-7",
-    element:     <App />
+    element:     <BM07 />
 
   },
   {
     path: "/bieu-mau-8",
-    element:     <App />
+    element:    <BM08 />
 
   },
   {
     path: "/bieu-mau-10",
-    element:     <App />
+    element:     <BM10 />
 
   },
 ]);

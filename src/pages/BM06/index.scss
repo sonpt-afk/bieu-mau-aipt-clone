@@ -1,0 +1,560 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.page {
+    .main {
+        padding: 31px 56px 48px 113px;
+        &-container {
+            border: 1px solid #000;
+            padding: 15px 0 0 0;
+        }
+
+        &-first-table-BM6 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows:
+                40px 40px 40px 40px 40px 40px 40px 40px 40px 40px
+                40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 130px;
+            border: 1px solid #000;
+            font-size: 17px;
+            margin-bottom: 520px;
+            &-info {
+                display: flex;
+                align-items: center;
+                padding-left: 10px;
+                grid-column: 1/5;
+                background-color: #daeef3;
+                border: 1px solid #000;
+                font-size: 19px;
+                font-weight: bold;
+                &-name {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    grid-column: 1/3;
+                    border-bottom: 1px solid #000;
+                }
+                &-salary-current {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    grid-column: 3/5;
+                    border-bottom: 1px solid #000;
+                }
+
+                &-position-want {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    grid-column: 1/3;
+                    border-bottom: 1px solid #000;
+                }
+                &-salary-want {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    grid-column: 3/5;
+                    border-bottom: 1px solid #000;
+                }
+                &-dept {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    grid-column: 1/3;
+                    border-bottom: 1px solid #000;
+                }
+                &-workday {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    grid-column: 3/5;
+                    border-bottom: 1px solid #000;
+                }
+                &-exp {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    grid-column: 1/3;
+                    border-bottom: 1px solid #000;
+                }
+                &-position-current {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    grid-column: 3/5;
+                    border-bottom: 1px solid #000;
+                }
+            }
+            &-feedback {
+                display: flex;
+                align-items: center;
+                padding-left: 10px;
+                grid-column: 1/5;
+                background-color: #daeef3;
+                border: 1px solid #000;
+                font-size: 19px;
+                font-weight: bold;
+                &-guide {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    grid-column: 1/5;
+                    border-bottom: 1px solid #000;
+                    font-weight: bold;
+                }
+                &-firstround {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    grid-column: 1/5;
+                    border-bottom: 1px solid #000;
+                    background-color: #daeef3;
+                    font-weight: bold;
+                    &-interviewer {
+                        display: flex;
+                        align-items: center;
+                        padding-left: 10px;
+                        border: 1px solid #000;
+                        grid-column: 1/4;
+                    }
+                    &-interviewDate {
+                        display: flex;
+                        align-items: center;
+                        padding-left: 10px;
+                        border: 1px solid #000;
+                        grid-column: 4/5;
+                    }
+                    &-skill {
+                        display: flex;
+                        align-items: center;
+                        padding-left: 10px;
+                        border: 1px solid #000;
+                        grid-column: 1/3;
+                    }
+                    &-score {
+                        display: flex;
+                        align-items: center;
+                        padding-left: 10px;
+                        border: 1px solid #000;
+                        grid-column: 1/3;
+                        justify-content: center;
+                    }
+                    &-blank {
+                        display: flex;
+                        align-items: center;
+                        padding-left: 10px;
+                        border: 1px solid #000;
+                        grid-column: 3/5;
+                        height: 80px;
+                        &-total {
+                            height: 40px;
+                            border: 1px solid #000;
+                            grid-column: 3/5;
+                        }
+                    }
+                    &-end {
+                        grid-column: 1/3;
+                        border-right: 1px solid #000;
+                        &-summary {
+                            display: flex;
+                            align-items: center;
+                            padding-left: 10px;
+                            margin-top: 10px;
+                            justify-content: center;
+                            font-weight: bold;
+                        }
+
+                        &-signature {
+                            display: flex;
+                            align-items: center;
+                            padding-left: 10px;
+                            margin-top: 36px;
+                            justify-content: center;
+                            font-weight: bold;
+                        }
+                    }
+                    &-bottomRight {
+                        grid-column: 3/5;
+                        &-checkbox-row {
+                            display: flex;
+                            align-items: center;
+                            padding-left: 10px;
+                            width: 300px;
+                            justify-content: space-between;
+                        }
+                        &-checkbox3 {
+                            display: flex;
+                            align-items: center;
+                            padding-left: 10px;
+                        }
+                        &-text {
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &-first-round-table {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* First row with 2 blocks */
+            grid-template-rows: 37px 37px 37px 81px 69px; /* Second row with dynamic height */
+            border: 1px solid #fff;
+            font-size: 20px;
+            margin-top: 10px;
+            &-job {
+                border: 1px solid #fff;
+                grid-column: 1 / 2;
+                display: flex;
+                align-items: center;
+                background-color: #fabf8f;
+                padding: 5px;
+                &-field {
+                    background-color: #c2d69b;
+                    grid-column: 2/5;
+                    grid-row: 1;
+                    border: 1px solid #fff;
+                    padding: 5px;
+                }
+            }
+            &-time {
+                border: 1px solid #fff;
+                grid-column: 1 / 2;
+                background-color: #fabf8f;
+                grid-row: 3;
+                padding: 5px;
+
+                &-field {
+                    background-color: #c2d69b;
+                    grid-column: 2/5;
+                    border: 1px solid #fff;
+                    padding: 5px;
+                }
+            }
+            &-date {
+                border: 1px solid #fff;
+                grid-column: 1 / 2;
+                background-color: #fabf8f;
+                grid-row: 2;
+                padding: 5px;
+
+                &-field {
+                    background-color: #c2d69b;
+                    grid-column: 2/5;
+                    border: 1px solid #fff;
+                    padding: 5px;
+                }
+            }
+            &-address {
+                grid-column: 1 / 2;
+                background-color: #fabf8f;
+                border: 1px solid #fff;
+                grid-row: 4;
+                padding: 5px;
+
+                &-field {
+                    background-color: #c2d69b;
+                    grid-column: 2/5;
+                    border: 1px solid #fff;
+                    padding: 5px;
+                }
+            }
+            &-contact {
+                grid-column: 1 / 2;
+                background-color: #fabf8f;
+                border: 1px solid #fff;
+                padding: 5px;
+
+                &-field {
+                    background-color: #c2d69b;
+                    grid-column: 2/5;
+                    border: 1px solid #fff;
+                    padding: 5px;
+                }
+            }
+        }
+        &-second-table-BM6 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows:
+                40px 40px 40px 40px 40px 40px 40px 40px 40px 230px
+                40px 280px;
+            border: 1px solid #000;
+            font-size: 17px;
+            margin-top: 30px;
+            &-feedback-secondround {
+                display: flex;
+                align-items: center;
+                padding-left: 10px;
+                grid-column: 1/5;
+                border-bottom: 1px solid #000;
+                background-color: #daeef3;
+                font-weight: bold;
+                &-interviewer {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    border: 1px solid #000;
+                    grid-column: 1/4;
+                }
+                &-interviewDate {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    border: 1px solid #000;
+                    grid-column: 4/5;
+                }
+                &-skill {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    border: 1px solid #000;
+                    grid-column: 1/3;
+                }
+                &-score {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    border: 1px solid #000;
+                    grid-column: 1/3;
+                    justify-content: center;
+                }
+                &-blank {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    border: 1px solid #000;
+                    grid-column: 3/5;
+                    height: 80px;
+                    &-total {
+                        height: 40px;
+                        border: 1px solid #000;
+                        grid-column: 3/5;
+                    }
+                }
+                &-end {
+                    grid-column: 1/3;
+                    border: 1px solid #000;
+                    &-summary {
+                        display: flex;
+                        align-items: center;
+                        padding-left: 10px;
+                        margin-top: 10px;
+                        justify-content: center;
+                        font-weight: bold;
+                    }
+
+                    &-signature {
+                        display: flex;
+                        align-items: center;
+                        padding-left: 10px;
+                        margin-top: 36px;
+                        justify-content: center;
+                        font-weight: bold;
+                    }
+                }
+                &-bottomRight {
+                    grid-column: 3/5;
+                    border: 1px solid #000;
+                    &-checkbox-row {
+                        display: flex;
+                        align-items: center;
+                        padding-left: 10px;
+                        width: 300px;
+                        justify-content: space-between;
+                    }
+                    &-checkbox3 {
+                        display: flex;
+                        align-items: center;
+                        padding-left: 10px;
+                    }
+                    &-text {
+                        margin-left: 10px;
+                    }
+                }
+                &-bossDecision {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    grid-column: 1/5;
+                    border: 1px solid #000;
+                    background-color: #daeef3;
+                    font-weight: bold;
+                }
+                &-bossSignature {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    justify-content: center;
+                    font-weight: bold;
+                    grid-column: 1/3;
+                    border: 1px solid #000;
+                }
+                &-bossApproval {
+                    padding: 10px;
+                    grid-column: 3/5;
+                    border: 1px solid #000;
+
+                    &-checkbox-row {
+                        padding: 15px;
+                        display: flex;
+                        width: 300px;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                }
+            }
+        }
+    }
+    table,
+    th,
+    td {
+        border: 1px solid black; /* Set a 1px solid border for all cells */
+        border-collapse: collapse; /* Collapse the borders into a single line */
+    }
+    th,
+    td {
+        padding: 10px; /* Add some padding for cell content */
+        //    display: flex;
+        //    align-items: center;
+        //      justify-content: center;
+        text-align: center;
+        height: 55px;
+    }
+
+    .main-third-table {
+        width: 100%;
+
+        th {
+            background-color: #ccc;
+        }
+    }
+    .main-fourth-table {
+        display: flex;
+        flex-direction: column;
+        &-item {
+            padding: 10px;
+            border: 1px solid #000;
+            &-comp {
+                font-weight: bold;
+            }
+        }
+    }
+    .main-fifth-table {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 45px 80px 375px 45px 80px 375px;
+        border: 1px solid #000;
+        &-name-head {
+            padding: 15px;
+            border: 1px solid #000;
+            font-weight: bold;
+        }
+        &-job-head {
+            padding: 15px;
+            font-weight: bold;
+            border: 1px solid #000;
+        }
+        &-ref-head {
+            padding: 15px;
+            font-weight: bold;
+            border: 1px solid #000;
+        }
+        &-time-head {
+            padding: 15px;
+            font-weight: bold;
+            border: 1px solid #000;
+        }
+        &-name-body {
+            padding: 15px;
+            border: 1px solid #000;
+        }
+        &-job-body {
+            padding: 15px;
+            border: 1px solid #000;
+        }
+        &-ref-body {
+            padding: 15px;
+            border: 1px solid #000;
+        }
+        &-time-body {
+            padding: 15px;
+            border: 1px solid #000;
+        }
+        &-jd {
+            padding: 10px;
+            span {
+                text-decoration: underline;
+            }
+            border: 1px solid #000;
+            grid-column: 1/4;
+        }
+        &-salary {
+            border: 1px solid #000;
+            padding: 5px;
+        }
+    }
+    .main-sixth-table {
+        border: 1px solid #000;
+        &-item {
+            border: 1px solid #000;
+            padding: 5px;
+            &.goal {
+                height: 90px;
+            }
+            &.pref {
+                height: 90px;
+            }
+            &.pros {
+                height: 90px;
+            }
+            &.OT {
+                display: flex;
+                justify-content: space-between;
+            }
+            &.trip {
+                justify-content: space-between;
+                display: flex;
+            }
+
+            &-order {
+                font-weight: bold;
+            }
+            &-checkbox-group {
+                display: flex;
+                gap: 45px;
+                &-item {
+                    display: flex;
+                    gap: 5px;
+                }
+            }
+        }
+    }
+    .main-footer-BM5 {
+        position: relative;
+        left: 66.7%;
+        margin-top: 20px;
+        width: 300px;
+        text-align: center;
+        &-date {
+            font-size: 18px;
+        }
+        &-name {
+            font-size: 18px;
+        }
+        &-signature {
+        }
+        &-end {
+            position: relative;
+            left: 33%;
+            &-applicant {
+                text-align: center;
+                font-weight: bold;
+            }
+        }
+    }
+}
